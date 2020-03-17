@@ -25,16 +25,29 @@
 //   console.log(key + ':' + obj[key])
 // }
 
-let menu = {
-  meals: [
-    'breakfast',
-    'second breakfast',
-    'elevenses',
-    'lunch',
-    'afternoon tea',
-    'dinner',
-    'supper'
-  ]
+// let menu = {
+//   meals: [
+//     'breakfast',
+//     'second breakfast',
+//     'elevenses',
+//     'lunch',
+//     'afternoon tea',
+//     'dinner',
+//     'supper'
+//   ]
+// };
+
+// console.log(menu.meals[3]);
+
+let obj = {
+  orkun : 'web developer',
+  ren : 'web developer',
+  boss : 'us'
 };
 
-console.log(menu.meals[3]);
+let arr = [];
+arr.push(obj);
+
+for(let i = 0; i<arr.length; i++) {
+  console.log(arr[i])
+}
