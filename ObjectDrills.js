@@ -1,4 +1,4 @@
-'use strict'; 
+'use strict';
 
 // const loaf = {
 //   flour: 300,
@@ -13,15 +13,28 @@
 
 // console.log(loaf.hydration());
 
+// let obj = {
+//   foo : 'red',
+//   bar : 'bar',
+//   fum : 'fum',
+//   quux : 'quux',
+//   spam : 'spam'
+// };
 
-let obj = {
-  foo : 'red',
-  bar : 'bar',
-  fum : 'fum',
-  quux : 'quux',
-  spam : 'spam'
+// for(let key in obj) {
+//   console.log(key + ':' + obj[key])
+// }
+
+let menu = {
+  meals: [
+    'breakfast',
+    'second breakfast',
+    'elevenses',
+    'lunch',
+    'afternoon tea',
+    'dinner',
+    'supper'
+  ]
 };
 
-for(let key in obj) {
-  console.log(key + ':' + obj[key])
-}
+console.log(menu.meals[3]);
